@@ -6,8 +6,8 @@ body{
 }
 .top{
     
-    background-color: blue;
-    height: 550px;
+    background-color:#2D25A0;
+    height: 677px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@ h1{
     color: white;
 }
 button{
-    background-color: rgb(16, 179, 24);
+    background-color: #E02C6D;
     padding: 5px 13px;
 }
 button:hover{
@@ -42,7 +42,11 @@ main {
     padding:  50px 100px;
     gap: 35px;
     align-items: center;
+    color: #6C6C6C;
     
+}
+h3{
+    color:#18191F;
 }
 .logo {
     display: flex;
@@ -51,7 +55,7 @@ main {
 
 }
 .logo img{
-    width: 30%;
+    width: 40%;
     
 }
 /* footer */
@@ -61,7 +65,7 @@ footer{
     
 
 }
-    
+  
 
 .fab{
     font-size: 30px;
