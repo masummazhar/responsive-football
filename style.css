@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* header */
+body{
+    font-family: 'Poppins', sans-serif;
+    border: 5px solid gray;
+}
+.top{
+    
+    background-color: blue;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner{
+    width: 50%;
+    padding-left: 75px;
+    font-size: 1.3em;
+}
+.top img{
+    width: 80%;
+}
+h1{
+    color: white;
+}
+button{
+    background-color: rgb(16, 179, 24);
+    padding: 5px 13px;
+}
+button:hover{
+    background-color: yellow;
+
+}
+/*...................... main ....................*/
+.blog img{
+    width: 80%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:  50px 100px;
+    gap: 35px;
+    align-items: center;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.logo img{
+    width: 30%;
+    
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    
+
+}
+    
+
+.fab{
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+/* media quary */
+@media screen and (max-width: 480px) {
+header .top{
+    flex-direction: column;
+}
+main .blog{
+    grid-template-columns: 1fr;
+}
+
+}
