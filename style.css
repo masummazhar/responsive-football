@@ -73,12 +73,12 @@ footer{
     
 }
 /* media quary */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
 header .top{
     flex-direction: column;
 }
 main .blog{
-    grid-template-columns: 1fr;
+    grid-template-columns: ;
 }
 
 }
